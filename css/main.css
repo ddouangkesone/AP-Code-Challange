@@ -1,0 +1,194 @@
+@font-face {
+  font-family: muliBold;
+  src: url(../fonts/Muli-Bold.ttf);
+}
+
+@font-face {
+  font-family: muliExtraBold;
+  src: url(../fonts/Muli-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: muliRegular;
+  src: url(../fonts/Muli-Regular.ttf);
+}
+
+@font-face {
+  font-family: muliLight;
+  src: url(../fonts/Muli-Light.ttf);
+}
+
+@font-face {
+  font-family: muliSemiBold;
+  src: url(../fonts/Muli-SemiBold.ttf);
+}
+
+body {
+  font-family: muliRegular
+}
+
+.bread-crumb {
+  background-color: #fafafa;
+}
+
+.bread-crumb ul, #footer ul {
+  list-style-type: none;
+}
+
+.bread-crumb li, #footer li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bread-crumb li::after {
+  content: ">";
+  padding-left: 15px;
+}
+
+.bread-crumb li:last-child::after{
+  content: " "
+}
+
+.bread-crumb li.active {
+  font-family: muliBold
+}
+
+#card-content h5 {
+  color: #2056ba;
+}
+
+#card-content a {
+  color: #5596e6;
+}
+
+.card-top .card-img-top {
+  width: auto;
+  max-height: 100%;
+}
+
+.card-top {
+  background-image: linear-gradient(white, #f4f4f4);
+  height: 225px;
+}
+
+.company-number::after {
+  content: "|";
+  padding-left: 7px;
+  font-size: 17px;
+}
+
+#footer {
+  background-color: #2056ba;
+}
+
+
+.invoice-payment .feature-spotlight {
+  color: #0bbf5e;
+}
+
+.invoice-payment h1 {
+  color: #2056ba;
+}
+
+.invoice-payment a {
+  color: #5596e6;
+}
+
+.muli-extra-bold {
+  font-family: muliExtraBold
+}
+
+.muli-bold {
+  font-family: muliBold
+}
+
+.muli-light {
+  font-family: muliLight
+}
+
+.muli-semi-bold {
+  font-family: muliSemiBold;
+}
+
+.navbar {
+  box-shadow: 0px 0px 20px grey;
+}
+
+.navbar.navbar-light .navbar-nav .active>.nav-link,
+.navbar.navbar-light .navbar-nav .nav-link,
+.navbar .dropdown-item,
+.navbar .btn-outline-success,
+.navbar .company-contact a {
+  color: #2056ba;
+}
+
+.navbar .dropdown-item {
+  color: #2056ba;
+  font-size: .9rem;
+}
+
+.navbar .nav-item {
+  font-size: .9rem;
+}
+
+
+.payment-solution a {
+  text-decoration: underline;
+}
+
+.payment-solution h1 {
+  color: #2056ba;
+}
+
+.payment-solution a {
+  color: #5596e6;
+}
+
+.payments {
+  background-color: #2056ba;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 35%;
+}
+
+.testimonial-client {
+  color: #2056ba;
+}
+
+.testimonial {
+  cursor: pointer;
+  box-shadow: -1px 0px 6px grey;
+  border-bottom: 12px solid #0bbf5e;
+}
+
+@media(max-width: 768px) {
+  #footer .awards img {
+    width: 95px;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .invoice-payment .img-fluid {
+    margin-top: 65px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .company-number::after {
+    content: "";
+  }
+}
+
+
+
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item muli-bold text-nowrap pt-4 pl-3 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              FEATURES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">ALL FEATURES</a>
+              <a class="dropdown-item" href="#">PAYMENTS</a>
+              <a class="dropdown-item" href="#">REPORTING</a>
+              <a class="dropdown-item" href="#">SECURITY</a>
+          </li>
+          <li class="nav-item muli-bold text-nowrap pt-4 pl-3 active">
+            <a class="nav-link" href="#">PARTNERS <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item muli-bold text-nowrap pt-4 pl-3">
+            <a class="nav-link" href="#">OUR STORY</a>
+          </li>
+          <li class="nav-item muli-bold text-nowrap pt-4 pl-3">
+            <a class="nav-link" href="#">SUPPORT</a>
+          </li>
+          <li class="nav-item pl-3">
+            <div class="col-md-12 text-center mb-2 company-contact">
+              <span><a class="company-number" href="#">855-656-4684</a><a href="#"> Contact us</a></span>
+            </div>
+            <div class="col-md-12">
+              <button class="btn btn-outline-success nav-button text-nowrap my-1">SCHEDULE A DEMO</button>
+              <button class="btn btn-outline-success nav-button text-nowrap my-1">LOG IN</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="bread-crumb">
+    <div class="container">
+      <div class=" row py-3">
+        <ul class="mb-0">
+          <li>Home</li>
+          <li>Features</li>
+          <li class="active">Payments</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="payments py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-3 offset-md-1 text-center">
+          <img class="float-md-right float-sm-none" src="./assets/pay_now.png" />
+        </div>
+        <div class="col-md-6 text-white text-center text-xs-center text-sm-center text-md-left muli-light">
+          <h1>
+            Payments
+          </h1>
+          <span> Easily accept credit, debit, and ACH payments with our secure online technology developer
+            specifically for associations and their members
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row invoice-payment my-5 py-1">
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img class="shadow img-fluid" src="./assets/invoice-payment.png" />
+      </div>
+      <div class="col-md-7 mt-sm-4 text-center text-xs-center text-sm-center text-md-left">
+        <img class="mr-3 float-md-left" src="./assets/feature-spotlight-icon.png" />
+        <span class="feature-spotlight align-md-top muli-bold">
+          FEATURE SPOTLIGHT
+        </span>
+        <span>
+          <h1>Custom Payment Pages</h1>
+          <br />
+          Get your own secure payment pages to easily process online payments. Customize your payment page
+          and link to it from emails, event registrations, and your website to give members a seamless payment
+          experience
+        </span>
+        <span class="muli-semi-bold">
+          <a href="#">
+            More about payment pages
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="row mb-5" id="card-content">
+      <template id="content-card-template">
+        <div class="col-12 col-md-6 col-lg-4 py-3">
+          <div class="card h-100">
+            <div class="card-top text-center">
+              <img class="card-img-top py-5" src="" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title muli-bold"></h5>
+              <p class="card-text"></p>
+              <a class="muli-semi-bold" href="#">Explore the feature</a>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    <div class="row testimonial p-5 mb-5">
+      <div class="col-md-12">
+        <img class="pb-2" src="assets/stars.png" />
+      </div>
+      <div class="col-md-8">
+        <br />
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor metus vel venenatis elementum.
+          Quisque mauris ex, laoreet at diam mollis, sodales tristique enim. Aliquam non imperdiet lacus, eu
+          dapibus diam. Suspendisse elit ligula, semper ac nulla sit amet, tristique vehicula diam. Phasellus
+          elementum mauris sit amet leo fermentum sodales.
+        </span>
+      </div>
+      <div class="col-md-1 d-none d-sm-none d-md-block">
+        <img src="assets/horizontal-line.png" />
+      </div>
+      <div class="col-md-3 mt-4 testimonial-client muli-bold">
+        <img class="testimonial-image mb-3" src="assets/peggy.jpg" />
+        <div>Jane Doe, Job Title</div>
+        <div>Association Name</div>
+      </div>
+    </div>
+    <div class="row payment-solution mb-5 pt-3">
+      <div class="col-md-6 order-2 order-sm-2 order-md-1 text-center text-md-left">
+        <h1>
+          Use our payment solution with the tools you already use
+        </h1>
+        <span>
+          It’s easy to use our online payment solution with the association software applications you
+          already use and trust.
+          <br />
+          <br />
+          <a class="mt-5" href="#">Explore integrations</a>
+        </span>
+      </div>
+      <div class="col-md-6 order-1 order-sm-1 order-md-2 mb-4 mb-md-0">
+        <img class="img-fluid" src="assets/payment-solutions.jpg" />
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    <div class="container text-white py-5">
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <div class="social-media mb-4 text-center text-md-left">
+            <img src="./assets/facebook.png" />
+            <img src="./assets/twitter.png" />
+            <img src="./assets/indeed.png" />
+            <img src="./assets/google.png" />
+          </div>
+          <span class="muli-light">
+            AffiniPay is a registered agent of Wells Fargo Bank, N.A and Citizens Bank, N.A
+          </span>
+          <br />
+          <br />
+          <span>
+            <a class="text-white" href="#">Privacy Policy</a>
+          </span>
+        </div>
+        <div class="col-md-8 text-center text-md-right awards">
+          <ul>
+            <li><img class="py-2" src="./assets/inc-5000.png" /></li>
+            <li><img class="py-2" src="./assets/ey-ent.png" /></li>
+            <li><img class="py-2" src="./assets/fast-50.png" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
